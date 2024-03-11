@@ -41,8 +41,40 @@
     }
 
     .card {
-        width: 150px;
-        height: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    h2 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .center-element-grid {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center-element-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        background-color: #04346c;
+        height: 10vh;
+    }
+
+    #margin-category {
+        margin-bottom: 25px;
     }
 }
 
@@ -59,6 +91,30 @@
 
     #img-carrosel {
         height: 350px;
+    }
+
+    h1 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    h2 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .center-element-grid {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center-element-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     header {
@@ -80,5 +136,23 @@
 
     .section-cards {
         display: flex;
+    }
+
+    #margin-category {
+        margin-bottom: 25px;
+    }
+
+    .center-element {
+        margin-top: 50px;
+        margin-bottom: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        background-color: #04346c;
+        height: 10vh;
+        
     }
 }
