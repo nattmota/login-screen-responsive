@@ -11,16 +11,24 @@
 <body>
     <header></header>
     <main>
-        <div class="container"> 
-            <div class="box-login">
-                <p>SIGN-IN<i class="fa-regular fa-user"></i></p>
-                <input type="text" placeholder="User">
-                <input type="text" placeholder="Password">
-                <button class="button">Sign in</button>
-                <button class="button">Register</button>
+        <div class="container">
+            <div class="row">
+                <div class="box-img">
+                    <div class="center-img">
+                    <img src="https://lh3.googleusercontent.com/proxy/wX7iDbGw6CrKQAfrB9y2jrX07WnITulE-eGLsfl9-LGcokv-CQdBVu1SNT_ATWkkgpflxVzh" alt="">
+                    </div>
+                </div>
+                <div class="box-login">
+                    <p>SIGN-IN<i class="fa-regular fa-user"></i></p>
+                    <input id="user" type="text" placeholder="User">
+                    <input id="password" type="text" placeholder="Password">
+                    <button onclick="verificar()" class="button">Sign in</button>
+                    <button class="button">Register</button>
+                </div>
             </div>
     </div>  
     </main>
     <footer></footer>
+    <script src="./js/login.js"></script>
 </body>
 </html>
