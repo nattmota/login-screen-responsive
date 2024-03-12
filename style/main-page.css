@@ -15,7 +15,7 @@
 
     header {
         background-color: #04346c;
-        height: 125px;
+        height: 28vh;
     }
 
     p {
@@ -26,8 +26,24 @@
         color: white;
     }
 
-    .container-header {
+    .container-header1 {
         display: flex;
+        text-align: center;
+        width: 100%;
+        gap: 22%;
+        margin: 0 10px;
+    }
+
+    .container-header2 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-container {
+        width: 100%;
     }
 
     .div-category {
@@ -156,3 +172,4 @@
         
     }
 }
+
